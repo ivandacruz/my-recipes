@@ -1,4 +1,4 @@
-# my-recipes
+# my-recipes (in construction)
 
 
 <h1 align="center">
@@ -141,6 +141,15 @@ Installing Bottom Tabs Navigator
 $ npm install @react-navigation/bottom-tabs
 
 ```
+
+Install webpack-config
+
+```
+
+$ npx expo install @expo/webpack-config@^18.0.1
+
+```
+
 
 </h3>
 
