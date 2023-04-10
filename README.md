@@ -1,4 +1,4 @@
-# my-recipes (in construction)
+# my-recipes (under construction!!)
 
 
 <h1 align="center">
@@ -14,7 +14,7 @@ Projeeto criado com o intuito de fixar meus conhecimentos e aprendizados em Reac
 
 <h1></h1>
 
-<h2 align="">
+<h2 align="center">
   💌 Quer enviar uma mensagem para min: ⤵️
 </h2>
 <p align="">
@@ -104,13 +104,9 @@ $ npx expo start
 
 ```
 
-
-<h2 align="center">Installs</h2>
-
+<h1 align="center">Installs</h1>
 
 [![React Navigation](https://reactnavigation.org/docs/getting-started/)]
-
-<h3>
 
 ```
 
@@ -118,7 +114,7 @@ $ npm install @react-navigation/native
 
 ```
 
-<p> Installing dependencies into an Expo managed project</p>
+<h2 align="center"> Installing dependencies into an Expo managed project</h2>
 
 ```
 
@@ -126,7 +122,7 @@ $ npx expo install react-native-screens react-native-safe-area-context
 
 ```
 
-Installing the native stack navigator library
+<h2 align="center">Installing the native stack navigator library</h2>
 
 ```
 
@@ -134,15 +130,16 @@ $  npm install @react-navigation/native-stack
  
 ```
 
-Installing Bottom Tabs Navigator
+<h2 align="center">Installing Bottom Tabs Navigator</h2>
 
 [Link Bottom Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator)
+
 ```
 $ npm install @react-navigation/bottom-tabs
 
 ```
 
-Install webpack-config
+<h2 align="center">Install webpack-config</h2>
 
 ```
 
@@ -150,11 +147,20 @@ $ npx expo install @expo/webpack-config@^18.0.1
 
 ```
 
+<h2 align="center">Install expo-linear-gradient</h2>
+
+
+
+```
+
+$ npx expo install expo-linear-gradient
+
+```
 
 </h3>
 
 
-## 📝 Licença
+<h1 align="center">📝 Licença</h1> 
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
