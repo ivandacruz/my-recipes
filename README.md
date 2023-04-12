@@ -40,15 +40,17 @@ Projeeto criado com o intuito de fixar meus conhecimentos e aprendizados em Reac
 <h2 align="center">Neste projeto foram usados:</h2>
 
 - Figma
-  
+  [Figma]()
   * Para elaborar nosso projeto 
 
 
 - Npm
-  
+  [Npm]()
   * Para instalar nossas dependências 
 
 - React Native
+  
+  [React-Native](https://reactnavigation.org/docs/getting-started/)
   
   * Plataforma ao qual foi criado a nossa aplicação 
 
@@ -56,8 +58,11 @@ Projeeto criado com o intuito de fixar meus conhecimentos e aprendizados em Reac
     
     * Usado para interação com componentes interativos do app
 
+- Expo
+  [Expo]()
+
 - Vercel
-    
+  [Vercel]()
     * O lugar onde hopedamos o aplicativo para uso only  
 
 <h1></h1>
@@ -133,14 +138,16 @@ $  npm install @react-navigation/native-stack
 
 <h2 align="center">Installing Bottom Tabs Navigator</h2>
 
-[Link Bottom Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator)
+[Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator)
 
 ```
 $ npm install @react-navigation/bottom-tabs
 
 ```
 
-<h2 align="center">Install webpack-config</h2>
+<h2 align="center">Install Webpack-Config</h2>
+
+[Webpack-config]()
 
 ```
 
@@ -150,7 +157,7 @@ $ npx expo install @expo/webpack-config@^18.0.1
 
 <h2 align="center">Install expo-linear-gradient</h2>
 
-
+[Expo-linear-gradient]()
 
 ```
 
@@ -160,7 +167,7 @@ $ npx expo install expo-linear-gradient
 
 <h2 align="center">Install webview</h2>
 
-[Link: webview](https://docs.expo.dev/versions/latest/sdk/webview/)
+[Webview](https://docs.expo.dev/versions/latest/sdk/webview/)
 
 ```
 
@@ -170,11 +177,41 @@ $ npx expo install react-native-webview
 
 <h2 align="center">Install AsyncStorage</h2>
 
-[Link: webview](https://docs.expo.dev/versions/latest/sdk/async-storage/)
+[AsyncStorage](https://docs.expo.dev/versions/latest/sdk/async-storage/)
 
 ```
 
 $ npx expo install @react-native-async-storage/async-storage
+
+```
+
+<h2 align="center">Install Moti</h2>
+
+[Moti](https://moti.fyi/installation)
+
+```
+
+$ npm i moti --legacy-peer-deps
+
+```
+
+<h2 align="center">Install Reanimated</h2>
+
+[Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
+
+```
+
+$ npx expo install react-native-reanimated
+
+```
+
+<h2 align="center">Install Gesture-Handler</h2>
+
+[Gesture-Handler](https://docs.expo.dev/versions/latest/sdk/gesture-handler/)
+
+```
+
+$ npx expo install react-native-gesture-handler
 
 ```
 
