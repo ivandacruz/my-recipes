@@ -1,5 +1,6 @@
-# my-recipes (under construction!!)
+<h1 align="center"># my-recipes</h1>
 
+## (under construction!!)
 
 <h1 align="center">
 📄<br>App Receitas
@@ -77,9 +78,9 @@ comando_de_instalação do Npm
 
 [![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 
-## ☕ Usando <receitas>
+<h1 align="center">## ☕ Usando <receitas></h1>
 
-Para usar <receitas>, siga estas etapas:
+* Para usar <receitas>, siga estas etapas:
 
 
 ```
@@ -157,14 +158,35 @@ $ npx expo install expo-linear-gradient
 
 ```
 
-</h3>
+<h2 align="center">Install webview</h2>
 
+[Link: webview](https://docs.expo.dev/versions/latest/sdk/webview/)
+
+```
+
+$ npx expo install react-native-webview
+
+```
+
+<h2 align="center">Install AsyncStorage</h2>
+
+[Link: webview](https://docs.expo.dev/versions/latest/sdk/async-storage/)
+
+```
+
+$ npx expo install @react-native-async-storage/async-storage
+
+```
+
+<h1></h1>
+
+<br>
 
 <h1 align="center">📝 Licença</h1> 
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#my-recipes)<br>
 
 
 <div align="center">
