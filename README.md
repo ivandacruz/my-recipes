@@ -1,108 +1,102 @@
-<h1 align="center"># my-recipes</h1>
+<h1 align="center"> My-Recipes</h1>
 
-## (under construction!!)
+<br>
 
-<h1 align="center">
-📄<br>App Receitas
-</h1>
+<h3 align="center">
+📄<br>Descrição do projeto:
 
-<h2 align="center">
-📄<br>Descriçaõ do projeto
-
-Projeeto criado com o intuito de fixar meus conhecimentos e aprendizados em React Native e em tecnologias JS.
+Projeto criado com o intuito de fixar meus conhecimentos e aprendizados em React Native e em tecnologias JS.
 
 </h2>
 
 <h1></h1>
 
-<h2 align="center">
-  💌 Quer enviar uma mensagem para min: ⤵️
-</h2>
-<p align="">
-  <a href="#" alt="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-EMAIL" /></a>
+<h2 align="center">💌 Quer enviar uma mensagem para min: ⤵️</h2>
 
-  <a href="#" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
+<br>
 
-  <a href="#" alt="WhatsApp">
-  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP"/></a>
+<div align="center">
+  <span>
+    <a href="#" alt="Gmail">
+    <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-EMAIL" /></a> 
+    <a href="#" alt="Linkedin">
+    <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
+    <a href="#" alt="WhatsApp">
+    <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP"/></a>
+    <a href="#" alt="Facebook">
+    <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=LINK-DO-SEU-FACEBOOK"/></a>
+    <a href="#" alt="Instagram">
+    <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
+  </span>
+</div>
 
-  <a href="#" alt="Facebook">
-  <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=LINK-DO-SEU-FACEBOOK"/></a>
-
-  <a href="#" alt="Instagram">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
-</p>
+<br>
   
 <h1></h1>
 
 <h2 align="center">Neste projeto foram usados:</h2>
 
-- Figma
-  [Figma]()
-  * Para elaborar nosso projeto 
 
+[Npm]()
 
-- Npm
-  [Npm]()
-  * Para instalar nossas dependências 
+[![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 
-- React Native
+  * Para instalar nossas dependências e pacotes
   
-  [React-Native](https://reactnavigation.org/docs/getting-started/)
-  
-  * Plataforma ao qual foi criado a nossa aplicação 
-
-- React Navigation
-    
-    * Usado para interação com componentes interativos do app
-
-- Expo
-  [Expo]()
-
-- Vercel
-  [Vercel]()
-    * O lugar onde hopedamos o aplicativo para uso only  
-
-<h1></h1>
-
-<h2 align="center">Criação da aplicação</h2> 
-
-
-## 🚀 Instalando <receitas>
-
 ```
-
-comando_de_instalação do Npm
 
     $ npm i 
 
 ```
 
 
-[![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
+[React-Native](https://reactnavigation.org/docs/getting-started/)
+  
+  * Plataforma ao qual foi criado a nossa aplicação 
+    
+[Expo cli](https://docs.expo.dev/archive/expo-cli/)
 
-<h1 align="center">## ☕ Usando <receitas></h1>
+  * Ajudam você a desenvolver, construir, implantar e iterar rapidamente em aplicativos iOS, Android e web 
 
-* Para usar <receitas>, siga estas etapas:
+  ```
+
+$ npm install -g expo-cli
+
+  ```
+
+
+<h1></h1>
+
+
+
+<h1 align="center">🚀 Para criar um novo projeto</h1>
+
+* Siga estas etapas:
 
 
 ```
 
-$ npx create-expo-app receitas
+$ npx create-expo-app my-recipes
 
 ```
 
-<p> Eu desenvolvi essa aplicação no ambiente do expo web, para instalar o expo web na aplicação é só inserir esse comandos no terminal.</p>
+- Eu desenvolvi essa aplicação no ambiente do expo web, para instalar o expo web na aplicação é só inserir esse comandos no terminal.
+
+
+
 
 ```
 
 $ npx expo install react-native-web@~0.18.10 react-dom@18.2.0
 
 ```
+<br>
 
-<p>Para startar o app</p>
+<h1 align="center">Rodar Projeto</h1>
+
+"Seguir esse passos para o projeto funcionar tera que rodar dois terminais ao mesmo tempo!"
+
+- Para start o app terminal 1
 
 ```
 
@@ -110,9 +104,20 @@ $ npx expo start
 
 ```
 
+- Para start no app o db.json terminal 2 nesse caso tera que achar seu  Rodar com IPV4: 
+
+```
+$ json-server --watch -d 180 --host 192.168.15.78 db.json 
+
+```
+
 <h1 align="center">Installs</h1>
 
-[![React Navigation](https://reactnavigation.org/docs/getting-started/)]
+
+- Instalei também nesse projeto essas dependências necessárias:
+  
+<h2 align="center"> Installing dependencies into an Expo managed project</h2>
+
 
 ```
 
@@ -120,21 +125,29 @@ $ npm install @react-navigation/native
 
 ```
 
-<h2 align="center"> Installing dependencies into an Expo managed project</h2>
+<br>
+
+<h2 align="center"> Installing react native screens e react native safe area</h2>
+
+[react native screens e react native safe area](https://reactnative.dev/docs/navigation)
 
 ```
 
 $ npx expo install react-native-screens react-native-safe-area-context
 
 ```
+<br>
 
-<h2 align="center">Installing the native stack navigator library</h2>
+<h2 align="center">Installing the native stack navigator</h2>
+
+[Native Stack](https://reactnavigation.org/docs/native-stack-navigator/)
 
 ```
 
 $  npm install @react-navigation/native-stack
  
 ```
+<br>
 
 <h2 align="center">Installing Bottom Tabs Navigator</h2>
 
@@ -144,6 +157,7 @@ $  npm install @react-navigation/native-stack
 $ npm install @react-navigation/bottom-tabs
 
 ```
+<br>
 
 <h2 align="center">Install Webpack-Config</h2>
 
@@ -154,6 +168,7 @@ $ npm install @react-navigation/bottom-tabs
 $ npx expo install @expo/webpack-config@^18.0.1
 
 ```
+<br>
 
 <h2 align="center">Install expo-linear-gradient</h2>
 
@@ -164,6 +179,7 @@ $ npx expo install @expo/webpack-config@^18.0.1
 $ npx expo install expo-linear-gradient
 
 ```
+<br>
 
 <h2 align="center">Install webview</h2>
 
@@ -174,6 +190,7 @@ $ npx expo install expo-linear-gradient
 $ npx expo install react-native-webview
 
 ```
+<br>
 
 <h2 align="center">Install AsyncStorage</h2>
 
@@ -184,6 +201,7 @@ $ npx expo install react-native-webview
 $ npx expo install @react-native-async-storage/async-storage
 
 ```
+<br>
 
 <h2 align="center">Install Moti</h2>
 
@@ -194,6 +212,7 @@ $ npx expo install @react-native-async-storage/async-storage
 $ npm i moti --legacy-peer-deps
 
 ```
+<br>
 
 <h2 align="center">Install Reanimated</h2>
 
@@ -204,6 +223,7 @@ $ npm i moti --legacy-peer-deps
 $ npx expo install react-native-reanimated
 
 ```
+<br>
 
 <h2 align="center">Install Gesture-Handler</h2>
 
@@ -223,7 +243,6 @@ $ npx expo install react-native-gesture-handler
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#my-recipes)<br>
 
 
 <div align="center">
